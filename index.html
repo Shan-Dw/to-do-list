@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bootstrap Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
@@ -11,10 +17,19 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    k
   </head>
   <body>
-    <h1>Hello-Bootstrap</h1>
+    <h1 class="text-white text-center my-5">
+      To do list with <b class="text-warning">JS</b>
+    </h1>
+    <div id="newtask" class="d-flex text-center align-item-center">
+      <input type="text" id="todo-input" placeholder="Nouvelle tâche..." />
+      <a class="btn btn-primary btn-sm" id="push" href="#" role="button">
+        Ajouter
+      </a>
+    </div>
+    <p class="text-white text-center my-5">Le 16/06/2022</p>
+    <div class="tache mx-auto" id="tasks"></div>
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"

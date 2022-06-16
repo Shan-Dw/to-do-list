@@ -1,0 +1,35 @@
+body {
+  background: rgb(229, 126, 255);
+  background: linear-gradient(
+    90deg,
+    rgb(178, 9, 220) 12%,
+    rgba(6, 132, 216, 1) 100%
+  );
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+#newtask {
+  font-size: 1.2rem;
+  justify-content: center;
+}
+input {
+  border-radius: 0.3rem;
+  border: none;
+  margin-right: 1.1rem;
+}
+a:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+.tache {
+  background-color: white;
+  height: 4rem;
+  width: 40%;
+  border-radius: 0.5rem;
+  display: flex;
+}
