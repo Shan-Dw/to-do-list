@@ -28,8 +28,21 @@ a:hover {
 }
 .tache {
   background-color: white;
-  height: 4rem;
+
   width: 40%;
   border-radius: 0.5rem;
-  display: flex;
+}
+
+#tasks {
+  background-color: aliceblue;
+  margin: 3% auto;
+  padding: 2%;
+  width: 40%;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+btn {
+  text-transform: uppercase;
 }
