@@ -46,3 +46,8 @@ a:hover {
 btn {
   text-transform: uppercase;
 }
+
+.completed {
+  text-decoration: line-through;
+  color: limegreen;
+}
